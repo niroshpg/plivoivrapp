@@ -12,7 +12,7 @@
   <servlet>
     <servlet-name>PhoneIvrServlet</servlet-name>
     <servlet-class>
-             com.plivio.ivr.PhoneIvrServlet
+             com.plivo.ivr.PhoneIvrServlet
         </servlet-class>
     <load-on-startup>1</load-on-startup>
   </servlet>
@@ -23,7 +23,7 @@
   <servlet>
     <servlet-name>IvrTree</servlet-name>
     <servlet-class>
-             com.plivio.ivr.IvrTree
+             com.plivo.ivr.IvrTree
         </servlet-class>
     <load-on-startup>1</load-on-startup>
   </servlet>

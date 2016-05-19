@@ -1,4 +1,4 @@
-package com.plivio.ivr;
+package com.plivo.ivr;
 
 import java.io.IOException;
 
