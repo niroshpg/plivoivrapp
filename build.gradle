@@ -4,6 +4,13 @@ apply plugin: 'war'
 
 compileJava.options.encoding = 'utf-8'
 
+buildscript{
+
+}
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.5'
+}
+
 eclipse {
   jdt {
     sourceCompatibility = 1.8
