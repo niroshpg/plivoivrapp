@@ -31,7 +31,7 @@ public class PhoneIvrServlet extends HttpServlet {
     String WRONG_INPUT_MESSAGE = "Sorry, it's wrong input.";
     
     
-    String HOST_URL="http://ec2-52-62-205-159.ap-southeast-2.compute.amazonaws.com:8080/PlivioIvrSample";
+    String HOST_URL="http://ec2-52-62-205-159.ap-southeast-2.compute.amazonaws.com:8080/plivoivrapp";
     
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) 
